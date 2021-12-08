@@ -1,0 +1,150 @@
+.main-header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-header-image {
+  height: 100%;
+  width: 71vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-header-image img {
+  height: 100%;
+}
+
+.main-header-content {
+  height: 100%;
+  width: calc(100vw - 71vh);
+  min-width: 55vw;
+  padding: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-content h2 {
+  font-size: 1.5vw;
+}
+
+.main-header-content a {
+  width: 100%;
+  height: 12vh;
+  font-family: 'Lato', sans-serif;
+  margin-top: 3vw;
+}
+
+.btn-a {
+  display: block;
+  position: relative;
+  color: #089487;
+  text-decoration: none;
+  letter-spacing: 120%;
+  border: 3px #089487 solid;
+  transition: color .5s;
+}
+
+.btn-a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: #089487;
+  transition: width .5s;
+}
+
+.btn-a:hover {
+  color: #fff;
+}
+
+.btn-a:hover::before {
+  width: 100%;
+}
+
+.btn-a span{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7vw;
+  letter-spacing: .5vw;
+}
+
+.main-header-content h1 {
+  font-size: 7vw;
+  letter-spacing: 1vw;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.centered {
+  width: max-content;
+  position: relative;
+}
+
+.centered::before {
+  content: '';
+  display: block;
+  width: 30%;
+  height: 3px;
+  background-color: #00776C;
+  margin-bottom: 5vw;
+}
+
+.centered div {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+.centered div > span {
+  margin-left: 2vw;
+}
+
+.centered div > span > span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .main-header-image {
+    display: none;
+  }
+
+  .main-header-content {
+    width: 100%;
+  }
+
+  .main-header-content h1 {
+    font-size: 10vw;
+  }
+
+  .main-header-content h2 {
+    font-size: 2.5vw;
+  }
+
+  .centered a span {
+    font-size: 2.5vw;
+    letter-spacing: 1.3vw;
+  }
+
+  .centered div > span {
+    font-size: 2vw;
+    margin-top: 2vw;
+  }
+
+  .main-header {
+    justify-content: flex-start;
+  }
+}
