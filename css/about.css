@@ -17,10 +17,16 @@
 .about-img-div {
   width: 45%;
   float: left;
+  overflow: hidden;
 }
 
 .about-img-div img {
   width: 100%;
+  transition: transform 1s;
+}
+
+.about-img-div img:hover {
+  transform: scale(1.2) rotate(2deg);
 }
 
 .about-content {
@@ -36,8 +42,9 @@
 }
 
 .about-content p {
-  font-size: 1.5vw;
-  margin-top: 1.2vw;
+  font-size: 1.7vw;
+  margin-bottom: 7vw;
+  margin-top: 1vw;
 }
 
 .about-text {
