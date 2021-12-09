@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 
 .main-header-image {
@@ -31,52 +32,6 @@
 
 .main-header-content h2 {
   font-size: 1.5vw;
-}
-
-.main-header-content a {
-  width: 100%;
-  height: 12vh;
-  font-family: 'Lato', sans-serif;
-  margin-top: 3vw;
-}
-
-.btn-a {
-  display: block;
-  position: relative;
-  color: #089487;
-  text-decoration: none;
-  letter-spacing: 120%;
-  border: 3px #089487 solid;
-  transition: color .5s;
-}
-
-.btn-a::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 100%;
-  background-color: #089487;
-  transition: width .5s;
-}
-
-.btn-a:hover {
-  color: #fff;
-}
-
-.btn-a:hover::before {
-  width: 100%;
-}
-
-.btn-a span{
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.7vw;
-  letter-spacing: .5vw;
 }
 
 .main-header-content h1 {
@@ -115,4 +70,56 @@
 
 .centered div > span > span {
   font-weight: bold;
+}/
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+@keyframes fade {
+  from {
+    opacity: .3;
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 0;
+  }
+}
+
+.btn-a {
+  display: block;
+  background-color: #00776C;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  aspect-ratio: 8/1;
+  margin-top: 3vw;
+}
+
+.btn-a::before {
+  content: '';
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  height: 100%;
+  opacity: .1;
+  width: 0;
+  transition: width .5s
+}
+
+.btn-a:hover::before {
+  width: 100%;
+ }
+
+.btn-a span {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3vw;
+  letter-spacing: .3vw;
 }

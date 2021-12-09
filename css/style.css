@@ -49,6 +49,7 @@ table {
 
 
 /* Inne właściwości */
+
 * {
   margin: 0;
   padding: 0;
@@ -57,4 +58,5 @@ table {
 
 body {
   font-family: 'EB Garamond', serif;
+  overflow-x: hidden;
 }
