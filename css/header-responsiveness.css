@@ -32,7 +32,7 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-aspect-ratio: 3/4) {
+@media screen and (max-aspect-ratio: 7/8) {
   .main-header {
     height: 50vh;
   }
