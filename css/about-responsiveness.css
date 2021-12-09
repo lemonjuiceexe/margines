@@ -1,6 +1,6 @@
 .about-img-div, .about-content {
   float: none;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -11,7 +11,7 @@
  }
 
  .about-content p {
-   font-size: 4.5vw;
+   font-size: 4vw;
    margin-top: 3vw;
 
  }
