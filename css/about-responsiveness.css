@@ -11,9 +11,9 @@
  }
 
  .about-content p {
-   font-size: 2em;
+   font-size: 4.5vw;
    margin-top: 3vw;
-   
+
  }
 
  .about-content::before {
