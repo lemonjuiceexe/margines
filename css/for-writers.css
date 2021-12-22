@@ -1,8 +1,7 @@
 .for-writers{
     display: inline-block;
     width : 100vw;
-    padding : 3vw;
-    margin-top : 20px;
+    padding : 7vw 5vw;
 }
 .for-writers h2{
     font-family: "Cormorant Garamond", serif;
@@ -52,5 +51,9 @@ strong{
     .for-writers p{
         font-size: 4vw;
         margin-top: 3vw;
+    }
+    .for-writers > h2::after{
+        opacity: 0.1;
+        transform: translate(2%, -102%);
     }
 }
