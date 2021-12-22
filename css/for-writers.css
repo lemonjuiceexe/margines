@@ -42,6 +42,58 @@ strong{
 /*Rules*/
 .rules{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top : 5vw;
+}
+.rule{
+    max-width : 33%;
+    min-width : 400px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2;
+    font-size : 1.4rem;
+    margin : 1vw 0;
+}
+.rule > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    grid-row : 1 / 3;
+    grid-column: 1 / 2;
+    place-items: center;
+    font-size: 2.2em;
+}
+.rule > div:nth-child(2){
+    grid-row : 1 / 2;
+    grid-column: 2 / 3;
+    font-size: 1.4em;
+    margin : 5px 0;
+    font-weight: bold;
+}
+.rule > div:nth-child(2)::after{
+    content: "";
+    display: block;
+    position: relative;
+    border-bottom: #00776C 6px solid;
+    width : 25%;
+    left : 1px;
+    height : 3px;
+    margin : 5px 0;
+}
+.rule > div:nth-child(3){
+    grid-row : 2 / 3;
+    grid-column: 2 / 3;
+}
+
+@media screen and (max-width: 1333px){
+    .rule{
+        max-width : 45%;
+    }
+}
+@media screen and (max-width: 889px){
+    .rule{
+        max-width : 85%;
+    }
 }
 
 @media screen and (max-width: 960px), screen and (max-aspect-ratio: 4/3){

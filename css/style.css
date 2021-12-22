@@ -75,3 +75,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #00776C;
 }
+
+::selection, ::-moz-selection{
+  background-color : #089487;
+  color : white;
+}
