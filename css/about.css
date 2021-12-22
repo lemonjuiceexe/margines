@@ -23,6 +23,7 @@
 .about-img-div img {
   width: 100%;
   transition: transform 1s;
+  padding : 2.5vw;
 }
 
 .about-img-div img:hover {
@@ -48,7 +49,7 @@
 }
 
 .about-text {
-  position: absolute;
+  position: relative;
   padding: 2.5vw;
   z-index: 3;
 }
@@ -76,6 +77,6 @@
   height: 15vw;
   background-color: #089487;
   border-radius: 50%;
-  transform: translate(50%, 70%);
-  z-index: 2;
+  transform: translate(-30%, -110%);
+  z-index: -1;
 }
