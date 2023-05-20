@@ -53,7 +53,6 @@
 	width: max-content;
 	position: relative;
 }
-
 .centered::before {
 	content: '';
 	display: block;

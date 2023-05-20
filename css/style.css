@@ -11,6 +11,26 @@ body {
   scrollbar-color: #089487 #fff;
 }
 
+/* Lines between sections */
+section{
+    position: relative;
+}
+section:not(:last-child)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    border-top: #00776C 3px solid;
+    width: 80%;
+    height: 5vw;
+}
+section:nth-child(even)::after{
+    left: 0;
+}
+section:nth-child(odd)::after{
+    right: 0;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #fff;
