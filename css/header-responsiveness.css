@@ -1,40 +1,37 @@
+.main-header {
+    justify-content: flex-start;
+}
+
 .main-header-image {
-  display: none;
+    display: none;
 }
 
 .main-header-content {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
-
 .main-header-content h1 {
-  font-size: 14vw;
+    font-size: 14vw;
 }
-
 .main-header-content h2 {
-  font-size: 4vw;
+    font-size: 4vw;
 }
 
 .btn-a {
-  margin-top: 6vw;
+    margin-top: 6vw;
+}
+.btn-a>span {
+    font-size: 2.5vw;
+    letter-spacing: 1.3vw;
 }
 
-.centered a span {
-  font-size: 2.5vw;
-  letter-spacing: 1.3vw;
-}
-
-.centered div > span {
-  font-size: 3vw;
-  margin-top: 5vw;
-}
-
-.main-header {
-  justify-content: flex-start;
+.stats-element {
+    font-size: 2.5vw;
+    margin-top: 5vw;
 }
 
 @media screen and (max-aspect-ratio: 7/8) {
-  .main-header {
-    height: 50vh;
-  }
+    .main-header {
+        height: 50vh;
+    }
 }

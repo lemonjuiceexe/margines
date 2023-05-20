@@ -1,4 +1,5 @@
 .for-writers{
+    position: relative;
     display: inline-block;
     width : 100vw;
     padding : 7vw 5vw;
@@ -13,15 +14,8 @@
     margin-top: 1vw;
     padding-right : 1vw;
 }
-
-.for-writers > h2::after{
-    display: block;
-    content : "Hej, a może chcesz napisać tekst?";
-    overflow-x: visible;
-    opacity : 0.15;
-    position: absolute;
-    transform: translate(4%, -140%);
-    font-size : 1.2em;
+strong{
+    font-weight: bold;
 }
 
 .for-writers::before {
@@ -31,46 +25,52 @@
     border-top: #00776C 3px solid;
     width: 80%;
     right: 0;
+    top: 0;
     height: 5vw;
-    transform: translateY(-100%);
+}
+.for-writers-header::after{
+    display: block;
+    content : "Hej, a może chcesz napisać tekst?";
+    overflow-x: visible;
+    opacity : 0.15;
+    position: absolute;
+    transform: translate(4%, -140%);
+    font-size : 1.2em;
 }
 
-strong{
-    font-weight: bold;
-}
-
-/*Rules*/
-.rules{
+/* Rules */
+.for-writers-rules{
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top : 5vw;
 }
-.rule{
+.for-writers-rule{
     max-width : 33%;
-    min-width : 400px;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 2;
+    grid-template-rows: 1fr 2fr;
     font-size : 1.4rem;
     margin : 1vw 0;
 }
-.rule > div:nth-child(1){
-    display: flex;
-    justify-content: center;
+.for-writers-rule-number{
     grid-row : 1 / 3;
     grid-column: 1 / 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     place-items: center;
     font-size: 2.2em;
+    color: #00776C;
 }
-.rule > div:nth-child(2){
+.for-writers-rule-title{
     grid-row : 1 / 2;
     grid-column: 2 / 3;
     font-size: 1.4em;
     margin : 5px 0;
     font-weight: bold;
 }
-.rule > div:nth-child(2)::after{
+.for-writers-rule-title::after{
     content: "";
     display: block;
     position: relative;
@@ -80,32 +80,7 @@ strong{
     height : 3px;
     margin : 5px 0;
 }
-.rule > div:nth-child(3){
+.for-writers-rule-content{
     grid-row : 2 / 3;
     grid-column: 2 / 3;
-}
-
-@media screen and (max-width: 1333px){
-    .rule{
-        max-width : 45%;
-    }
-}
-@media screen and (max-width: 889px){
-    .rule{
-        max-width : 85%;
-    }
-}
-
-@media screen and (max-width: 960px), screen and (max-aspect-ratio: 4/3){
-    .for-writers h2{
-        font-size : 10vw;
-    }
-    .for-writers p{
-        font-size: 4vw;
-        margin-top: 3vw;
-    }
-    .for-writers > h2::after{
-        opacity: 0.1;
-        transform: translate(2%, -102%);
-    }
 }
