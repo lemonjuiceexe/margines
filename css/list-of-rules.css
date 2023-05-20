@@ -3,7 +3,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin-top : 5vw;
 }
 .rule{
     max-width : 33%;
