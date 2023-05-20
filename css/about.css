@@ -26,15 +26,6 @@
     position: relative;
     padding: 1.5vw;
 }
-.about-content h2 {
-    font-size: 4vw;
-    font-family: "Cormorant Garamond", serif;
-}
-.about-content p {
-    font-size: 1.7vw;
-    margin-bottom: 7vw;
-    margin-top: 1vw;
-}
 .about-content::before,
 .about-content::after {
     content: '';

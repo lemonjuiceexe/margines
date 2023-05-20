@@ -16,16 +16,6 @@
 	justify-content: center;
 	align-items: center;
 }
-.main-header-content h1 {
-	font-size: 7vw;
-	letter-spacing: 1vw;
-	text-transform: uppercase;
-	font-weight: lighter;
-	font-family: "Cormorant Garamond", serif;
-}
-.main-header-content h2 {
-	font-size: 1.5vw;
-}
 
 .main-header-image {
 	height: 100%;

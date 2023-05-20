@@ -10,6 +10,25 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #089487 #fff;
 }
+h1{
+    font-size: 7vw;
+	letter-spacing: 1vw;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-family: "Cormorant Garamond", serif;
+}
+h2{
+    font-size: 4vw;
+    font-family: "Cormorant Garamond", serif;
+}
+h3{
+    font-size: 1.5vw;
+}
+p{
+    font-size: 1.7vw;
+    margin-bottom: 7vw;
+    margin-top: 1vw;
+}
 
 /* Lines between sections */
 section{
