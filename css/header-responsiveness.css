@@ -13,16 +13,8 @@
 .main-header-content h1 {
     font-size: 14vw;
 }
-.main-header-content h2 {
+.main-header-content h3 {
     font-size: 4vw;
-}
-
-.btn-a {
-    margin-top: 6vw;
-}
-.btn-a>span {
-    font-size: 2.5vw;
-    letter-spacing: 1.3vw;
 }
 
 .stats-element {

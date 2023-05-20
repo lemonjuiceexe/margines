@@ -3,7 +3,6 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    margin: 5vw 0;
 }
 
 .common-mistakes-header, 
@@ -15,7 +14,7 @@
 .scroll-down-button{
     height: 3em;
     width: 40%;
-    margin: 2em 0;
+    margin: 4em 0;
 }
 
 .common-mistakes .rules{
@@ -26,13 +25,9 @@
     grid-template-rows: unset;
     max-width: 40%;
     gap: 5px;
-    margin: 2vw 0;
 }
 .common-mistakes .rule-title{
     font-weight: bold;
-}
-.common-mistakes .rule-number{
-    /* justify-content: center; */
 }
 .common-mistakes .rule-number img{
     width: 90%;

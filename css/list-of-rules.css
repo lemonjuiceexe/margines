@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 2fr;
     font-size : 1.4rem;
-    margin : 1vw 0;
+    margin: 0 0 2vw 0;
 }
 .rule-number{
     grid-row : 1 / 3;

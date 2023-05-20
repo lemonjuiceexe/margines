@@ -12,6 +12,7 @@
     transform: translate(2%, -102%);
 }
 
-.for-writers-rule{
+.for-writers .rule{
     max-width : 48%;
+    font-size: 2em;
 }
