@@ -39,6 +39,7 @@
 .for-writers .rule-number{
     color: #00776C;
     font-size: 2.2em;
+    align-items: center;
 }
 .for-writers .rule-title{
     font-size: 1.4em;
