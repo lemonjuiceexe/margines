@@ -4,11 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body {
   font-family: 'EB Garamond', serif;
   overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: #089487 #fff;
+  position: relative;
 }
 
 /* Content types and tags */
