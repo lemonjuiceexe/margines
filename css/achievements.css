@@ -1,4 +1,5 @@
 .achievements{
+    position: relative;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -6,6 +7,27 @@
 }
 .achievements-header > *{
     text-align: right;
+    position: relative;
+}
+.achievements::before,
+.achievements-header::before{ /* Achievements::before is already in use*/
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: #089487;
+    z-index: -1;
+}
+.achievements::before{
+    bottom: 5%;
+    right: 15%;
+    width: 12vw;
+    height: 12vw;
+}
+.achievements-header::before{
+    left: 10%;
+    top: 18%;
+    width: 8vw;
+    height: 8vw;
 }
 
 .achievements-content{

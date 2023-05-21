@@ -3,16 +3,16 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 20vw;
+    height: 15vw;
     color: #fff;
 }
 footer h2{
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: bold;
     margin: 0;
 }
 footer a, footer p{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin: 0;
 }
 .footer-big, .footer-small{
@@ -41,4 +41,10 @@ footer a, footer p{
 .footer-small{
     height: 30%;
     background-color: #089487;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.footer-small p{
+    font-size: 1.8em;
 }
