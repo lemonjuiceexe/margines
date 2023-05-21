@@ -33,4 +33,5 @@
     width: 90%;
     height: auto;
     margin-top: 15px;
+    user-select: none;
 }

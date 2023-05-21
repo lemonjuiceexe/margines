@@ -35,6 +35,9 @@ p{
     margin-bottom: 7vw;
     margin-top: 1vw;
 }
+a, a:active, a:visited, a:link{
+    color: #00776C;
+}
 /* Buttons */
 .button {
 	display: block;

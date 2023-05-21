@@ -48,6 +48,10 @@ table {
     border-spacing: 0;
 }
 
+a, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: unset;
+}
 strong{
     font-weight: bold;
 }

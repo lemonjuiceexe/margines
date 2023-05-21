@@ -30,12 +30,12 @@
 	margin: 10%;
 	box-shadow: rgb(73, 73, 73) 1px 1px 10px, rgb(73, 73, 73) 1px 1px 1px, rgb(255, 255, 255) 2px 2px, rgb(73, 73, 73) 3px 3px 1px, rgb(255, 255, 255) 4px 4px, rgb(73, 73, 73) 5px 5px 1px;
 	transform: rotateY(-15deg);
-	transition: all 1s;
+	transition: all 1s ease;
+    cursor: pointer;
 }
 .main-header-image img:hover {
 	transform: scale(1.1) rotateY(-5deg);
 	box-shadow: rgb(73, 73, 73) 1px 1px 10px, rgb(73, 73, 73) 1px 1px 1px, rgb(255, 255, 255) 2px 2px, rgb(73, 73, 73) 3px 3px 1px, rgb(255, 255, 255) 4px 4px, rgb(73, 73, 73) 5px 5px 1px;
-	transition: all 1s;
 }
 
 .centered {

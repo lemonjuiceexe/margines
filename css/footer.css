@@ -11,9 +11,13 @@ footer h2{
     font-weight: bold;
     margin: 0;
 }
-footer a, footer p{
+footer a,
+footer a:link,
+footer a:visited,
+footer p{
     font-size: 1.3vw;
     margin: 0;
+    color: #fff;
 }
 .footer-big, .footer-small{
     width: 100%;
