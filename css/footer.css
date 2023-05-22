@@ -49,6 +49,6 @@ footer p{
     flex-flow: row nowrap;
     align-items: center;
 }
-.footer-small p{
+.footer-small p, .footer-small a{
     font-size: 1.8em;
 }

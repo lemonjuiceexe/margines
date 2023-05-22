@@ -9,27 +9,6 @@
     display: block;
     content : "Hej, a może chcesz napisać tekst?";
     overflow-x: visible;
-    opacity : 0.15;
-    position: absolute;
-    transform: translate(4%, -140%);
-    font-size : 1.2em;
-}
-
-.for-writers::before {
-    content: '';
-    position: absolute;
-    display: block;
-    border-top: #00776C 3px solid;
-    width: 80%;
-    right: 0;
-    top: 0;
-    height: 5vw;
-}
-.for-writers-header::after{
-    display: block;
-    content : "Hej, a może chcesz napisać tekst?";
-    overflow-x: visible;
-    opacity : 0.15;
     position: absolute;
     transform: translate(4%, -140%);
     font-size : 1.2em;
@@ -50,7 +29,7 @@
     display: block;
     position: relative;
     border-bottom: #00776C 6px solid;
-    width : 25%;
+    width: 0;
     left : 1px;
     height : 3px;
     margin : 5px 0;

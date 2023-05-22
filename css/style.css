@@ -87,7 +87,7 @@ section:not(:last-child)::after{
     position: absolute;
     top: 0;
     border-top: #00776C 3px solid;
-    width: 80%;
+    /* width: 80%; */
     height: 5vw;
 }
 section:nth-child(even)::after{

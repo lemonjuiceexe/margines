@@ -12,6 +12,7 @@
     width: 100%;
     transition: all 1000ms;
     padding: 2.5vw;
+    cursor: pointer;
 }
 .about-img-div img:hover {
     transform: scale(1.2) rotate(2deg);
@@ -38,10 +39,12 @@
     height: 10vw;
     left: 100%;
     right: 0;
-    transform: translate(-200%, 20%);
+    translate: -200% 20%;
+    /* transform: translate(-200%, 20%); */
 }
 .about-content::after {
     width: 15vw;
     height: 15vw;
-    transform: translate(-50%, -90%);
+    /* transform: translate(-50%, -90%); */
+    translate: -50% -90%;
 }
