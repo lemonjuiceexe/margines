@@ -12,9 +12,11 @@
 .achievements::before,
 .achievements-header::before{ /* Achievements::before is already in use*/
     content: '';
+    display: block;
     position: absolute;
-    border-radius: 50%;
     background-color: #089487;
+    border-radius: 50%;
+    margin: auto;
     z-index: -1;
 }
 .achievements::before{
